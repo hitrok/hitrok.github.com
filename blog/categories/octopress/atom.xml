@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | HitsujiLab.]]></title>
   <link href="http://hitrok.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://hitrok.github.com/"/>
-  <updated>2012-03-31T02:12:13+09:00</updated>
+  <updated>2012-03-31T02:13:54+09:00</updated>
   <id>http://hitrok.github.com/</id>
   <author>
     <name><![CDATA[hitrok]]></name>
@@ -75,7 +75,8 @@
 </pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">header</span> <span class="nt">h1</span><span class="o">,</span><span class="nt">h1</span><span class="o">,</span><span class="nt">h2</span><span class="o">,</span><span class="nt">h3</span><span class="o">,</span><span class="nt">h4</span><span class="o">,</span><span class="nt">h5</span><span class="o">,</span><span class="nt">h6</span><span class="p">{</span><span class="k">font-family</span><span class="o">:</span><span class="s2">&quot;Junge&quot;</span><span class="o">,...</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>そんなかんじ。</p>
+<p>そんなかんじ。
+次はテーマとか変えたり作ったりしたい。</p>
 ]]></content>
   </entry>
   
