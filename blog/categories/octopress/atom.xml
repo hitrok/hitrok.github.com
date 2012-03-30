@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[HitsujiLab.]]></title>
-  <link href="http://hitrok.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | HitsujiLab.]]></title>
+  <link href="http://hitrok.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://hitrok.github.com/"/>
   <updated>2012-03-31T01:41:50+09:00</updated>
   <id>http://hitrok.github.com/</id>
@@ -20,69 +20,53 @@
     <id>http://hitrok.github.com/blog/2012/03/30/octopress</id>
     <content type="html"><![CDATA[<p>雨と風がすごいので、勢いにのってOctopressでgithub Pagesを構築してみた。</p>
 
-<p>参考</p>
-
-<blockquote><p>Octopressのインストールから運用管理まで</p><footer><strong>tokkonopapa</strong> <cite><a href='http://tokkonopapa.github.com/blog/2011/12/30/octopress-on-github-and-bitbucket/'>tokkonopapa.github.com/blog/12/&hellip;</a></cite></footer></blockquote>
-
+<p>参考
+<blockquote><p>Octopressのインストールから運用管理まで</p><footer><strong>tokkonopapa</strong> <cite><a href='http://tokkonopapa.github.com/blog/2011/12/30/octopress-on-github-and-bitbucket/'>tokkonopapa.github.com/blog/12/&hellip;</a></cite></footer></blockquote></p>
 
 <p>また、導入直後はtweetボタンしか有効になっていない。どうせなのでFacebookのいいね！ボタンも付けたいと思ったところ、すごく簡単に出来た。</p>
 
 <p>_config.yml</p>
 
-<p>を下記のように変更。</p>
-
-<figure class='code'><figcaption><span>_config.yml  </span></figcaption>
+<p>を下記のように変更。
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span><em>config.yml  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">facebook_like</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">false</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>の箇所を</p>
-
-<figure class='code'><figcaption><span>_config.yml  </span></figcaption>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+の箇所を
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span></em>config.yml  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">facebook_like</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+これだけ。GooglePlusの+1ボタンもあるのでこちらも同じようにすれば有効になる。</p>
 
-
-<p>これだけ。GooglePlusの+1ボタンもあるのでこちらも同じようにすれば有効になる。</p>
-
-<p>書き方の例は本家サイトを参考にすればいい。</p>
-
-<blockquote><p>Octopress Documentation</p><footer><strong>Octopress</strong> <cite><a href='http://octopress.org/docs/'>octopress.org/docs/&hellip;</a></cite></footer></blockquote>
-
+<p>書き方の例は本家サイトを参考にすればいい。
+<blockquote><p>Octopress Documentation</p><footer><strong>Octopress</strong> <cite><a href='http://octopress.org/docs/'>octopress.org/docs/&hellip;</a></cite></footer></blockquote></p>
 
 <p>ついでなので、hタグのフォントも変えてみた。</p>
 
 <p>source/_includes/head.html</p>
 
-<p>にGoogleWebFontsから以下を追加。</p>
-
-<figure class='code'><figcaption><span>head.html  </span></figcaption>
+<p>にGoogleWebFontsから以下を追加。
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>head.html  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&#39;http://fonts.googleapis.com/css?family=Junge&#39;</span> <span class="na">rel=</span><span class="s">&#39;stylesheet&#39;</span> <span class="na">type=</span><span class="s">&#39;text/css&#39;</span><span class="nt">&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>ブログのタイトルのフォントを変えたい場合は</p>
 
 <p>source/stylesheets/screen.css</p>
 
-<p>の以下の箇所を編集。</p>
-
-<figure class='code'><figcaption><span>head.html  </span></figcaption>
+<p>の以下の箇所を編集。
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>head.html  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">header</span> <span class="nt">h1</span><span class="p">{</span><span class="k">font-size</span><span class="o">:</span><span class="m">2.2em</span><span class="p">;</span><span class="k">font-family</span><span class="o">:</span><span class="s2">&quot;Junge&quot;</span><span class="o">,...</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-
-<p>記事のタイトルのフォントを変えたい場合は以下を編集。</p>
-
-<figure class='code'><figcaption><span>head.html  </span></figcaption>
+<p>記事のタイトルのフォントを変えたい場合は以下を編集。
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>head.html  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">header</span> <span class="nt">h1</span><span class="o">,</span><span class="nt">h1</span><span class="o">,</span><span class="nt">h2</span><span class="o">,</span><span class="nt">h3</span><span class="o">,</span><span class="nt">h4</span><span class="o">,</span><span class="nt">h5</span><span class="o">,</span><span class="nt">h6</span><span class="p">{</span><span class="k">font-family</span><span class="o">:</span><span class="s2">&quot;Junge&quot;</span><span class="o">,...</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>そんなかんじ。</p>
 ]]></content>
