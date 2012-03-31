@@ -4,7 +4,7 @@
   <title><![CDATA[HitsujiLab.]]></title>
   <link href="http://hitrok.github.com/atom.xml" rel="self"/>
   <link href="http://hitrok.github.com/"/>
-  <updated>2012-03-31T10:37:15+09:00</updated>
+  <updated>2012-03-31T13:35:12+09:00</updated>
   <id>http://hitrok.github.com/</id>
   <author>
     <name><![CDATA[hitrok]]></name>
@@ -27,9 +27,7 @@
 
 <p>また、導入直後はtweetボタンしか有効になっていない。どうせなのでFacebookのいいね！ボタンも付けたいと思ったところ、すごく簡単に出来た。</p>
 
-<p>_config.yml</p>
-
-<p>を下記のように変更。</p>
+<p><code>_config.yml</code>を下記のように変更。</p>
 
 <figure class='code'><figcaption><span>_config.yml  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -64,9 +62,7 @@
 
 <p>ついでなので、hタグのフォントも変えてみた。</p>
 
-<p>source/_includes/head.html</p>
-
-<p>にGoogleWebFontsから以下を追加。</p>
+<p><code>source/_includes/head.html</code>にGoogleWebFontsから以下を追加。</p>
 
 <figure class='code'><figcaption><span>head.html  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -76,9 +72,7 @@
 
 <p>ブログのタイトルのフォントを変えたい場合は</p>
 
-<p>source/stylesheets/screen.css</p>
-
-<p>の以下の箇所を編集。</p>
+<p><code>source/stylesheets/screen.css</code>の以下の箇所を編集。</p>
 
 <figure class='code'><figcaption><span>head.html  </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
